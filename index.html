@@ -9,6 +9,10 @@
             min-height: 100vh;
       }
 
+      .min-container{
+        padding-top: 60px; 
+      }
+
       .container{
          background-color: #fff;
          width: 450px;
@@ -54,6 +58,8 @@
          align-items: center;
       }
 
+      
+
       @media screen and (max-width: 760px){
          .container{
             width: 80%;
@@ -67,6 +73,7 @@
    </style>
 </head>
 <body>
+   <div class="min-container">
    <h1 class="title">Calculate Rectangle Area</h1>
     <div class="container">
       <input type="text" placeholder="Enter Width"  class="no-input" id="width"/>
@@ -82,6 +89,7 @@
       <button type="button" class="btn-calulate" onclick="reset()">
          Reset
       </button>
+    </div>
     </div>
 
    <script>
